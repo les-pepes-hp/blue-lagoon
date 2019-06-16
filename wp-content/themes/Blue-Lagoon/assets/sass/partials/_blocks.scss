@@ -1,7 +1,7 @@
 // blocks spécifiques
 
-iframe,
-img{
+.iframe,
+.img{
   display: block;
   width: 100%;
 }
@@ -15,6 +15,10 @@ img{
 {
   padding: 2%;
   width: 25%;
+}
+.sticky{
+  position: sticky;
+  top: 0;
 }
 
 
@@ -60,5 +64,5 @@ img{
 // caption1 slider
 .caption{
   background-color: rgba(0, 0, 0, 0.5);
-
+  max-height: 70vh;
 }

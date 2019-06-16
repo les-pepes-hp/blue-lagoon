@@ -1,0 +1,9 @@
+<nav class="nav d-none d-lg-block col-md-8">
+    <ul class="links">
+        {% for item in menu.items %}
+            <a href="{{ item.link }}/#article-anch">
+                <li class="link">{{ item.title }}</li>
+            </a>
+        {% endfor %}
+    </ul>
+</nav>
