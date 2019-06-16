@@ -21,4 +21,23 @@ tr{
 .anch:hover{
   color: $color-3 !important;
 }
+.lsn:hover{
+  text-decoration: none;
+  color: $color-1;
+}
+
+//bordures hautes:hover
+
+.border-t-1px-h:hover{
+  border-top: 1px solid;
+}
+.border-t-3px-h:hover{
+  border-top: 3px solid;
+}
+.border-t-5px-h:hover {
+  border-top: 5px solid;
+}
+.border-t-10px-h:hover{
+  border-top: 10px solid;
+}
 

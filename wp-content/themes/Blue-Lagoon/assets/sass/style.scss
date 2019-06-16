@@ -6,7 +6,8 @@
 @import "partials/background";
 @import "partials/display";
 @import "partials/blocks";
-@import "partials/padding-margin.scss";
+@import "partials/deco.scss";
+@import "partials/padding-margin";
 
 .body{
   padding: 0;
@@ -15,7 +16,9 @@
 a{
   text-decoration: none;
 }
-
+.link{
+  transition: 0.3s;
+}
 //-----------------------------------------------------------------------------------
 // Entrez votre personnalisation scss ici
 
