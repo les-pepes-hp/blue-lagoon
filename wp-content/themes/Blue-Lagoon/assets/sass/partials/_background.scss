@@ -1,0 +1,44 @@
+//-----------------Background-gradient
+//
+//.l-g-1
+//{
+//  background-image: $gradient1;
+//}
+//
+//.l-g-2
+//{
+//  background-image: $gradient2;
+//}
+//
+//.l-g-3
+//{
+//  background-image: $gradient3;
+//}
+//
+////-----------------Background-img
+//
+.url-1{
+  background-image: $url1;
+}
+//.url-2{
+//  background-image: $url2;
+//}
+//.url-3{
+//  background-image: $url3;
+//}
+// ----------Effet parallax
+.parallax{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+// ----------Cover No-repeat centré
+.simple-cover
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

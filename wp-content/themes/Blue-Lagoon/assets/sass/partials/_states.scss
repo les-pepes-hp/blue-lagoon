@@ -1,0 +1,24 @@
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 14px;
+  background: transparent;
+}
+//Scroll
+.smooth
+{
+  scroll-behavior: smooth;
+}
+tr{
+  transition: 0.3s;
+}
+
+//hover boutons nav
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+  opacity: 0.5 !important;
+}
+.anch:hover{
+  color: $color-3 !important;
+}
+

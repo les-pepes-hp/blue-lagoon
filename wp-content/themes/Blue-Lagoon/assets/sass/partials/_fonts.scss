@@ -1,0 +1,93 @@
+//            POLICES
+.font-1{
+  font-family: $font-1;
+}
+.font-2{
+  font-family: $font-2
+}
+.font-2{
+  font-family: $font-3;
+}
+
+//            taille
+
+.t0{
+  font-size: $t0;
+}
+.t1{
+  font-size: $t1;
+}
+.t3{
+  font-size: $t3;
+}
+.t4{
+  font-size: $t4;
+}
+.t5{
+  font-size: $t5;
+}
+.t6{
+  font-size: $t6;
+}
+.t7{
+  font-size: $t7;
+}
+.t8{
+  font-size: $t8;
+}
+.t9{
+  font-size: $t9;
+}
+.t10{
+  font-size: $t10;
+}
+.t11{
+  font-size: $t11;
+}
+.t12{
+  font-size: $t12;
+}
+.t13{
+  font-size: $t13;
+}
+.t14{
+  font-size: $t14;
+}
+
+// Epaisseur de caractère
+
+.bold{
+  font-weight: bold;
+}
+.bold-900{
+  font-weight: 900;
+}
+.bold-600{
+  font-weight: 600;
+}
+.bold-300{
+  font-weight: 300;
+}
+
+// style, décoration de caractere, alignement
+
+//italique
+.italic{
+  font-style: italic;
+}
+//souligné
+.underline
+{
+  text-decoration: underline;
+}
+
+//text-align
+.t-a-left{
+  text-align: left;
+}
+.t-a-center{
+  text-align: center;
+}
+.t-a-right{
+  text-align: right;
+}

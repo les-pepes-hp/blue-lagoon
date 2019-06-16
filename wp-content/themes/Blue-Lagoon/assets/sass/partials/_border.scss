@@ -1,0 +1,126 @@
+// ----------------------------LES BORDURES
+// bordures totales
+
+.border-1px{
+  border: 1px solid;
+}
+.border-3px{
+  border: 3px solid;
+}
+.border-5px
+{
+  border: 5px solid;
+}
+.border-10px{
+  border: 10px solid;
+}
+
+//bordures basses-gauches
+
+.border-l-b-1px{
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+.border-l-b-3px{
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+}
+.border-l-b-5px
+{
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+}
+.border-l-b-10px{
+  border-left: 10px solid;
+  border-bottom: 10px solid;
+}
+
+//bordures hautes
+
+.border-t-1px{
+  border-top: 1px solid;
+}
+.border-t-3px{
+  border-top: 3px solid;
+}
+.border-t-5px
+{
+  border-top: 5px solid;
+}
+.border-t-10px{
+  border-top: 10px solid;
+}
+
+//bordures basses
+
+.border-b-1px{
+  border-bottom: 1px solid;
+}
+.border-b-3px{
+  border-bottom: 3px solid;
+}
+.border-b-5px
+{
+  border-bottom: 5px solid;
+}
+.border-b-10px{
+  border-bottom: 10px solid;
+}
+
+//bordures gauche
+
+.border-l-1px{
+  border-left: 1px solid;
+}
+.border-l-3px{
+  border-left: 3px solid;
+}
+.border-l-5px
+{
+  border-left: 5px solid;
+}
+.border-l-10px{
+  border-left: 10px solid;
+}
+
+//bordures droite
+
+.border-r-1px{
+  border-right: 1px solid;
+}
+.border-r-3px{
+  border-right: 3px solid;
+}
+.border-r-5px
+{
+  border-right: 5px solid;
+}
+.border-r-10px{
+  border-right: 10px solid;
+}
+
+// LES RADIUS
+
+.rad10{
+  border-radius:10px;
+}
+.rad20{
+  border-radius:25px;
+}
+.rad50{
+  border-radius:50px;
+}
+.rad-2{
+  border-radius: 2%;
+}
+.rad-10{
+  border-radius: 10%;
+}
+.rad-20
+{
+  border-radius: 20%;
+}
+.rad-50
+{
+  border-radius: 50%;
+}

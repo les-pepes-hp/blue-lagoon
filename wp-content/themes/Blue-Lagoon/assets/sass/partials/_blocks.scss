@@ -1,0 +1,64 @@
+// blocks spécifiques
+
+iframe,
+img{
+  display: block;
+  width: 100%;
+}
+
+// articles
+.article{
+  padding: 2%;
+}
+// medaillon-articles
+.post-medal
+{
+  padding: 2%;
+  width: 25%;
+}
+
+
+
+
+//popup sur toute la page (a afficher ou non avec bootstrap ou none
+.grand-popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:10;
+  width: 100vw;
+  height: 100vh;
+}
+//propriétés header
+.header{
+  height: 20vh;
+}
+//propriétés section
+.section{
+  height: 80vh;
+  margin-top: 10vh;
+}
+
+//proppriétés footer
+.footer{
+  height:10vh;
+}
+//--------------------------------Boutons
+// Boutons de navigations
+.anch{
+  height: 115px !important;
+  width: 115px !important;
+}
+
+//Boutons sliders
+.carousel-control-prev,
+.carousel-control-next{
+  opacity: 0.1 !important;
+}
+
+// Captions
+// caption1 slider
+.caption{
+  background-color: rgba(0, 0, 0, 0.5);
+
+}

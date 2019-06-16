@@ -1,0 +1,108 @@
+// --------------------- Propriété de couleurs
+//-----------------fonts
+
+//custom color 1
+.color-1{
+  color: $color-1;
+}
+//custom color 2
+.color-2{
+  color: $color-2;
+}
+//custom color 3
+.color-3{
+  color: $color-3;
+}
+// ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
+.red{
+  color:red;
+}
+// VERT-JAUNE = Success, etc.
+.green{
+  color: greenyellow;
+}
+//Bleu Primaire
+.blue{
+  color: blue;
+}
+//NOIR
+.black{
+  color:black
+}
+//BLANC
+.white
+{
+  color:white;
+}
+
+//-----------------Border
+
+//custom brd-color 1
+.brd-color-1{
+  border-color: $color-1;
+}
+//custom brd-color 2
+.brd-color-2{
+  border-color: $color-2;
+}
+//custom brd-color 3
+.brd-color-3{
+  border-color: $color-3;
+}
+// ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
+.brd-red{
+  border-color: red;
+}
+// VERT-JAUNE = Success, etc.
+.brd-green{
+  border-color: greenyellow;
+}
+//Bleu Primaire
+.brd-blue{
+  border-color: blue;
+}
+//NOIR
+.brd-black{
+  border-color:black
+}
+//BLANC
+.brd-white
+{
+  border-color:white;
+}
+//-----------------Background
+
+//custom bk-color 1
+.bk-color-1{
+  background-color: $color-1;
+}
+//custom bk-color 2
+.bk-color-2{
+  background-color: $color-2;
+}
+//custom bk-color 3
+.bk-color-3{
+  background-color: $color-3;
+}
+// ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
+.bk-red{
+  background-color:red;
+}
+// VERT-JAUNE = Success, etc.
+.bk-green{
+  background-color: greenyellow;
+}
+//Bleu Primaire
+.bk-blue{
+  background-color: blue;
+}
+//NOIR
+.bk-black{
+  background-color:black
+}
+//BLANC
+.bk-white
+{
+  background-color:white;
+}
+

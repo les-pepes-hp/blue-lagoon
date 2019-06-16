@@ -1,0 +1,28 @@
+@import "partials/vars";
+@import "partials/fonts";
+@import "partials/states";
+@import "partials/colors";
+@import "partials/border";
+@import "partials/background";
+@import "partials/display";
+@import "partials/blocks";
+@import "partials/padding-margin.scss";
+
+.body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+//-----------------------------------------------------------------------------------
+// Entrez votre personnalisation scss ici
+
+
+
+//-----------------------------------------------------------------------------------
+@import "partials/responsive_tablet";
+@import "partials/responsive_desktop";
