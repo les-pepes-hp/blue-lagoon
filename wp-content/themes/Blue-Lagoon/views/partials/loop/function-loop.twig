@@ -1,15 +1,26 @@
-{% extends 'base.twig' %}
-{% block tmp_slide %}
-<article class="article">
-    <h1 class="t10 t-a-center">Les fonctionnalités</h1>
-    <section class="section row">
-        {% for post in posts %}
-            <div class="offset-2 offset-md-4"></div>
-            <div class="col-md-4 col-8">
-                <img src="" alt="" class="img">
+<div class="row m-t100 m-b20">
+    <div class="offset-md-1 d-none d-block"></div>
+    <h2 class="col-md-2 col-4">
+
+        <img class="m-a p-t-a p-b-a d-b" src="{{ theme.link }}/assets/img/maori-turtle2.png" alt="">
+
+    </h2>
+    <h1 class="t10 t-a-center col-8 col-md-6">Les fonctionnalités</h1>
+    <h2 class="col-md-2 col-4">
+        <img class="m-a p-t-a p-b-a" src="{{ theme.link }}/assets/img/maori-turtle.png" alt="">
+    </h2>
+    <div class="offset-md-1 d-none d-block"></div>
+</div>
+<div class="d-f spA w-80 fw p50 border-3px brd-color-3 rad50">
+    {% for function in functions %}
+        <div class="w-15 m50 relative">
+            <div>
+                <img src="{{function.thumbnail.src}}" alt="" class="img">
+                <div class="op0 p30 t-a-center absolute w-100 h-100 white bk-color-6 tr t4 top0">{{ function.title }}</div>
             </div>
-            <div class="offset-2 offset-md-4"></div>
-        {% endfor %}
-    </section>
-</article>
-{% endblock %}
+
+        </div>
+    {% endfor %}
+</div>
+
+

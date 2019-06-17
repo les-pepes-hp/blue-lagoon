@@ -36,7 +36,12 @@
     'orderby' => 'date',
     'order' => 'DESC',
   ];
-
+  $args_articles4 = [
+    'post-type' => 'functions',
+    'post_per_page' => 10,
+    'orderby' => 'date',
+    'order' => 'ASC',
+  ];
 // récupère les articles en fonction du tableau d'argument $args_posts
 // en utilisant la méthode de Timber get_posts
 // puis on les enregistre dans l'array $context sous la clé "posts"
@@ -44,6 +49,7 @@
   $context['editos'] = Timber::get_posts($args_articles1);
   $context['articles'] = Timber::get_posts($args_articles2);
   $context['events'] = Timber::get_posts($args_articles3);
+  $context['functions'] = Timber::get_posts($args_articles4);
 
 //  var_dump($context['shows']);die;
 

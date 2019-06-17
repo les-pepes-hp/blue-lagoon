@@ -13,6 +13,15 @@
 .color-3{
   color: $color-3;
 }
+.color-4{
+  color:$color-4;
+}
+.color-5{
+  color:$color-5;
+}
+.color-6{
+   color:$color-6;
+ }
 // ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
 .red{
   color:red;
@@ -45,9 +54,22 @@
 .brd-color-2{
   border-color: $color-2;
 }
+
 //custom brd-color 3
 .brd-color-3{
   border-color: $color-3;
+}
+//custom brd-color 4
+.brd-color-4{
+  border-color: $color-4;
+}
+//custom brd-color 5
+.brd-color-5{
+  border-color: $color-5;
+}
+//custom brd-color 6
+.brd-color-6{
+  border-color: $color-6;
 }
 // ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
 .brd-red{
@@ -83,6 +105,18 @@
 //custom bk-color 3
 .bk-color-3{
   background-color: $color-3;
+}
+//custom bk-color 4
+.bk-color-4{
+  background-color: $color-4;
+}
+//custom bk-color 5
+.bk-color-5{
+  background-color: $color-5;
+}
+//custom bk-color 6
+.bk-color-6{
+  background-color: $color-6;
 }
 // ROUGE primaire = Pour les icones et mentions importants (erreur, danger), et autres
 .bk-red{

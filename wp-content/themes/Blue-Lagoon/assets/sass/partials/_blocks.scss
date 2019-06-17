@@ -1,3 +1,17 @@
+//----------------------position
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.fixed{
+  position: fixed;
+}
+
+.stick{
+  position: sticky;
+}
 // blocks spécifiques
 h1{
   margin-bottom: 10vh;

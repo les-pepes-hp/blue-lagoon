@@ -91,7 +91,7 @@
         <h2 class="col-md-2 col-4">
             <img class="m-a p-t-a p-b-a" src="{{ theme.link }}/assets/img/maori-turtle.png" alt="">
         </h2>
-        <h1 class="black t10 t-a-center col-8 col-md-4 ">{{ post.title }}</h1>
+        <h1 class="black t10 t-a-center col-8 col-md-4">{{ post.title }}</h1>
         <h2 class="col-md-2 col-4">
 
                 <img class="m-a p-t-a p-b-a d-b" src="{{ theme.link }}/assets/img/maori-turtle2.png" alt="">
@@ -111,8 +111,13 @@
 
 
     </section>
-    <section class="section row">
-        <a id="article-anch-2" class="d-b" ></a>
+
+
+    <section class="section">
+        <a id="article-anch-2" class="d-b h10" ></a>
+        {% include '/views/partials/loop/function-loop.twig' %}
     </section>
+
+
 </article>
 {% endblock %}
