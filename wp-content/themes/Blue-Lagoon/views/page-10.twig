@@ -6,7 +6,7 @@
     {% if post.get_field('field_5cb8ecc79f5cc') %}
         <!-- IMAGES 1265 X 550 -->
         <div id="carouselExampleIndicators" class="white carousel slide d-none d-sm-block" data-ride="carousel">
-        <div class="t10 carousel-caption d-none d-md-block caption p20 rad20 m-t20">
+        <div class="t10 carousel-caption d-none d-md-block caption p0 rad20 m-t10">
                 {{ post.get_field('field_5cb8c1272895d') }}
                 {% include '/views/partials/buttons/anch-button/button-anch-1.twig' %}
             </div>
@@ -81,6 +81,38 @@
 
     {% endif %}
 {% endblock %}
+
 {%  block content %}
-<h1 class="black t14 t-a-center">bla</h1>
+
+<article class="article">
+    <section class="section row">
+        <a id="article-anch-1" class="d-b" ></a>
+        <div class="offset-md-2 d-none d-block"></div>
+        <h2 class="col-md-2 col-4">
+            <img class="m-a p-t-a p-b-a" src="{{ theme.link }}/assets/img/maori-turtle.png" alt="">
+        </h2>
+        <h1 class="black t10 t-a-center col-8 col-md-4 ">{{ post.title }}</h1>
+        <h2 class="col-md-2 col-4">
+
+                <img class="m-a p-t-a p-b-a d-b" src="{{ theme.link }}/assets/img/maori-turtle2.png" alt="">
+
+        </h2>
+
+        <div class="offset-2"></div>
+        <div class="offset-1"></div>
+        <div class="col-4 bk-white url-1 parallax rad-50 lucarne"></div>
+        <div class="col-2">
+            {% include '/views/partials/buttons/anch-button/button-anch-2.twig' %}
+        </div>
+        <p class="color-1 col-4 p50">
+            {{ post.content }}
+        </p>
+        <div class="offset-1"></div>
+
+
+    </section>
+    <section class="section row">
+        <a id="article-anch-2" class="d-b" ></a>
+    </section>
+</article>
 {% endblock %}

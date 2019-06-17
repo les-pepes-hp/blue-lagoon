@@ -1,8 +1,8 @@
 <nav class="nav d-none d-lg-block col-md-8">
-    <ul class="links">
+    <ul class="links d-f spA">
         {% for item in menu.items %}
-            <a class="lsn color-1 d-f spA" href="{{ item.link }}/#article-anch">
-                <li class="p20 border-t-5px-h link w-20">{{ item.title }}</li>
+            <a class="lsn color-1 w-20" href="{{ item.link }}/#article-anch">
+                <li class="p20 border-t-5px-h brd-color-1 m-t10 t4 link ">{{ item.title }}</li>
             </a>
         {% endfor %}
     </ul>

@@ -17,9 +17,9 @@
 //
 ////-----------------Background-img
 //
-//.url-1{
-//  background-image: $url1;
-//}
+.url-1{
+  background-image: $url1;
+}
 //.url-2{
 //  background-image: $url2;
 //}
@@ -30,11 +30,16 @@
 .parallax{
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
+  background-size: contain;
+
+  //width: 100%;
+  //overflow: hidden;
 }
+.lucarne
+{
+  background-position: -70%;
+}
+.lucarne-2
 // ----------Cover No-repeat centré
 .simple-cover
 {
